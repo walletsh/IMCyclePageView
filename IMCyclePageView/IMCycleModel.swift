@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class IMCycleModel {
+    var title: String = ""
+    var picUrl: String = ""
+    var contentUrl: String = ""
+    var createTime: String = ""
+    var adverId: Int?
+    var isDeleted: Bool?
+    
+}
