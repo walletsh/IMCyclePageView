@@ -15,6 +15,8 @@
 		EE07B5C31DFE80CF00C4467C /* IMCycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07B5C21DFE80CF00C4467C /* IMCycleModel.swift */; };
 		EE07B5C51DFE82C200C4467C /* IMCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07B5C41DFE82C200C4467C /* IMCycleView.swift */; };
 		EE07B5C71DFE8A6600C4467C /* IMCycleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07B5C61DFE8A6600C4467C /* IMCycleViewCell.swift */; };
+		EE3071481E13ABBA008C32C6 /* IMScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3071471E13ABBA008C32C6 /* IMScrollViewController.swift */; };
+		EE30714A1E13AF5D008C32C6 /* IMScorllerPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3071491E13AF5D008C32C6 /* IMScorllerPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EE07B5C21DFE80CF00C4467C /* IMCycleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCycleModel.swift; sourceTree = "<group>"; };
 		EE07B5C41DFE82C200C4467C /* IMCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCycleView.swift; sourceTree = "<group>"; };
 		EE07B5C61DFE8A6600C4467C /* IMCycleViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCycleViewCell.swift; sourceTree = "<group>"; };
+		EE3071471E13ABBA008C32C6 /* IMScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMScrollViewController.swift; sourceTree = "<group>"; };
+		EE3071491E13AF5D008C32C6 /* IMScorllerPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMScorllerPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +66,15 @@
 			children = (
 				EE07B5B01DFE807A00C4467C /* AppDelegate.swift */,
 				EE07B5B21DFE807A00C4467C /* ViewController.swift */,
+				EE07B5C21DFE80CF00C4467C /* IMCycleModel.swift */,
+				EE07B5C41DFE82C200C4467C /* IMCycleView.swift */,
+				EE07B5C61DFE8A6600C4467C /* IMCycleViewCell.swift */,
+				EE3071471E13ABBA008C32C6 /* IMScrollViewController.swift */,
+				EE3071491E13AF5D008C32C6 /* IMScorllerPageView.swift */,
 				EE07B5B41DFE807A00C4467C /* Main.storyboard */,
 				EE07B5B71DFE807A00C4467C /* Assets.xcassets */,
 				EE07B5B91DFE807A00C4467C /* LaunchScreen.storyboard */,
 				EE07B5BC1DFE807A00C4467C /* Info.plist */,
-				EE07B5C21DFE80CF00C4467C /* IMCycleModel.swift */,
-				EE07B5C41DFE82C200C4467C /* IMCycleView.swift */,
-				EE07B5C61DFE8A6600C4467C /* IMCycleViewCell.swift */,
 			);
 			path = IMCyclePageView;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE07B5B31DFE807A00C4467C /* ViewController.swift in Sources */,
+				EE3071481E13ABBA008C32C6 /* IMScrollViewController.swift in Sources */,
 				EE07B5C51DFE82C200C4467C /* IMCycleView.swift in Sources */,
+				EE30714A1E13AF5D008C32C6 /* IMScorllerPageView.swift in Sources */,
 				EE07B5B11DFE807A00C4467C /* AppDelegate.swift in Sources */,
 				EE07B5C31DFE80CF00C4467C /* IMCycleModel.swift in Sources */,
 				EE07B5C71DFE8A6600C4467C /* IMCycleViewCell.swift in Sources */,

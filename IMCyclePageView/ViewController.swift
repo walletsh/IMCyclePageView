@@ -19,21 +19,29 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         setupData()
-        // Do any additional setup after loading the view, typically from a nib.
         
         let cycleView = IMCycleView(frame: CGRect(x: 0, y: 100, width: screentWidth, height: screetHeight * 0.3))
         cycleView.cycleModels = cycleModels
         self.view.addSubview(cycleView)
+        
+        let button = UIButton(type: .contactAdd)
+        button.frame.origin = CGPoint(x: screentWidth - 50, y: 30)
+        button.addTarget(self, action: #selector(buttonClick(_:)), for: .touchUpInside)
+        self.view.addSubview(button)
     }
     
     
-    func setupData() {
+    fileprivate func setupData() {
         for index in 0..<7 {
             let cycleModel = IMCycleModel()
             cycleModel.title = "   这是第\(index + 1)张"
             cycleModel.picUrl = "school_pic\(index + 1)"
             cycleModels.append(cycleModel)
         }
+    }
+    
+    @objc fileprivate func buttonClick(_ button: UIButton) {
+        self.present(IMScrollViewController(), animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
